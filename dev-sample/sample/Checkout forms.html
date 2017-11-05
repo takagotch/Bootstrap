@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>From style</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<div class="container">        <!-- 全体を囲むコンテナ -->
+
+<h1 class="page-header">Form check out</h1>
+
+<form>
+
+  <div class="form-group">
+    <label for="name1">Addresses name</label>
+    <input type="text" class="form-control" id="name1">
+  </div>
+
+  <div class="form-group">
+    <label for="add1">Address</label>
+    <input type="text" class="form-control" id="add1">
+  </div>
+
+  <div class="form-group">
+    <label for="se1">receipt</label>
+    <select class="form-control" id="se1">
+      <option>addresses name recept</option>
+      <option>reserved name receipt</option>
+      <option>NO reciept</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <p><b>puck up options</b></p>
+    <label class="checkbox-inline"><input type="checkbox">gift-wrapping</label>
+    <label class="checkbox-inline"><input type="checkbox">reserved delivery date</label>
+    <label class="checkbox-inline disabled"><input type="checkbox" disabled>mail packing</label>
+  </div>
+
+  <div class="form-group">
+    <p><b>pick up product color</b></p>
+    <label class="radio-inline"><input type="radio" name="iro">red</label>
+    <label class="radio-inline"><input type="radio" name="iro">blue</label>
+    <label class="radio-inline"><input type="radio" name="iro">green</label>
+    <label class="radio-inline disabled"><input type="radio" name="iro" disabled>white</label>
+  </div>
+
+  <hr>
+  <div class="form-group">
+    <button class="btn btn-default">back</button>
+    <button class="btn btn-primary">next</button>
+  </div>
+
+</form>
+
+</div>        <!-- 全体を囲むコンテナ -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
