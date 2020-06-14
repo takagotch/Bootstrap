@@ -8,23 +8,29 @@ https://github.com/twbs/bootstrap
 
 
 ```
+### Primary file.
+
+bootstrap.css.map       
+bootstrap.min.css       
+---
+
 bootstrap/
 ├── css/
-│   ├── bootstrap.css
-│   ├── bootstrap.css.map
-│   ├── bootstrap.min.css
-│   ├── bootstrap-theme.css
-│   ├── bootstrap-theme.css.map
-│   └── bootstrap-theme.min.css
+│   ├── bootstrap.css           # Secondary
+│   ├── bootstrap.css.map       # Primary
+│   ├── bootstrap.min.css       # Primary
+│   ├── bootstrap-theme.css     # tertiary
+│   ├── bootstrap-theme.css.map # tertiary
+│   └── bootstrap-theme.min.css # tertiary
 ├── js/
 │   ├── bootstrap.js
 │   └── bootstrap.min.js
-└── fonts/
-    ├── glyphicons-halflings-regular.eot
-    ├── glyphicons-halflings-regular.svg
-    ├── glyphicons-halflings-regular.ttf
-    ├── glyphicons-halflings-regular.woff
-    └── glyphicons-halflings-regular.woff2
+└── fonts/                                 # Secondary (グリフアイコンのフォント。すべて bootstrap.css から参照されており必須) 
+    ├── glyphicons-halflings-regular.eot   #
+    ├── glyphicons-halflings-regular.svg   #
+    ├── glyphicons-halflings-regular.ttf   #
+    ├── glyphicons-halflings-regular.woff  #
+    └── glyphicons-halflings-regular.woff2 #
 ```
 
 ```
