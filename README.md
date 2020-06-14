@@ -25,7 +25,7 @@ bootstrap/
 ├── js/
 │   ├── bootstrap.js
 │   └── bootstrap.min.js
-└── fonts/                                 # Secondary (グリフアイコンのフォント。すべて bootstrap.css から参照されており必須) 
+└── fonts/                                 # Secondary (グリフアイコンのフォント。すべて bootstrap.css から参照されている）
     ├── glyphicons-halflings-regular.eot   #
     ├── glyphicons-halflings-regular.svg   #
     ├── glyphicons-halflings-regular.ttf   #
@@ -39,13 +39,12 @@ bootstrap/
 ```
 
 ```
-
-
-```
-
 **bsp**
 
 - bsp
   - bsp
   
+```
+
+
 
